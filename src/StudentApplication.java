@@ -246,18 +246,8 @@ public class StudentApplication {
         }
         System.out.println(); // aethetic reason
     }
-    
-    public static void studentInfo() {
-        System.out.println("Students Information");
-        System.out.println("Kenta Toh 33913476 03/04/2020");
-        System.out.println("Student.java, ResearchStudent.java, CourseWorkStudent.java, StudentApplication.java");
-        System.out.println("Assumes that the program reads the correct file");
-        System.out.println("All functions will work correctly");
-        System.out.println();
-    }
 
     public static void main(String[] args) {
-        studentInfo();
         getUserInput(); // prompt the user for which type of student
         ArrayList<Student> students = readFile(); // read the file of type of student the user chose, and return it into an arraylist
        
